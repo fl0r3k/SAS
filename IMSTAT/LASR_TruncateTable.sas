@@ -1,4 +1,3 @@
-
 %macro LASR_TruncateTable(table);
     proc imstat noprint;
         table &table.;
